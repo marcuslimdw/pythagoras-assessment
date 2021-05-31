@@ -1,0 +1,1 @@
+This is a partially implemented data collector from Okex that, using websockets, periodically downloads orderbook data and pushes it to Redis and MongoDB. It can be run with `cargo run` (`export RUST_LOG=debug` to view logging output of all levels)
